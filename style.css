@@ -206,28 +206,27 @@ li span {
 .tabcontent {
     color: white;
     display: none;
-    padding: 100px 20px;
+    padding: 50px 2px;
     height: 100%;
 }
 
 #text-summ {
-    position: absolute;
-    display: block;
-    grid-column: 1/4;
+    display: none;
+    grid-column: 2;
     grid-row: 2;
+    text-align: center;
 }
 
 #text-pract {
-    position: absolute;
     display: none;
-    grid-column: 1/4;
+    grid-column: 2;
     grid-row: 2;
+    text-align: center;
 }
 
 #text-cont {
-    position: absolute;
     display: none;
-    grid-column: 1/4;
+    grid-column: 2;
     grid-row: 2;
 }
 
@@ -241,5 +240,21 @@ li span {
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
-
+}
+h3 {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+form {
+    display:block;
+}
+.name, .email, .message, .submit {
+    padding-top: 20px;
+    width: 40%;
+    margin: auto;
+}
+input {
+    margin: 5px;
 }
