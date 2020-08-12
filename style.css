@@ -1,13 +1,13 @@
-
 * {
     box-sizing: border-box;
 
 }
+
 body {
     overflow-x: hidden;
     background-color: black;
     font-family: Verdana, sans-serif;
-    margin:0;
+    margin: 0;
 }
 
 .navbar {
@@ -24,9 +24,11 @@ body {
     overflow: hidden;
     top: 0;
 }
+
 .mySlides {
     display: none;
 }
+
 img {
     vertical-align: middle;
 }
@@ -78,7 +80,7 @@ p {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -126,23 +128,32 @@ p {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .prev, .next, .text {
+        font-size: 11px
+    }
 }
 
 
 /* Countdown */
-
 
 li {
     display: inline-block;
@@ -171,6 +182,7 @@ li span {
     margin-top: -35px;
 
 }
+
 .logo2 {
     float: right;
     margin-top: -35px;
@@ -185,6 +197,7 @@ li span {
     gap: 1px 1px;
     grid-template-areas: ". . ." ". . .";
 }
+
 .tablink:hover {
     background-color: #777;
 }
@@ -196,22 +209,37 @@ li span {
     padding: 100px 20px;
     height: 100%;
 }
-#text-summ{
+
+#text-summ {
     position: absolute;
     display: block;
     grid-column: 1/4;
     grid-row: 2;
 }
-#text-pract{
-    position: absolute;
-    display: none;
-    grid-column: 1/4;
-    grid-row: 2;
-}
-#text-cont{
+
+#text-pract {
     position: absolute;
     display: none;
     grid-column: 1/4;
     grid-row: 2;
 }
 
+#text-cont {
+    position: absolute;
+    display: none;
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.tablink {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
