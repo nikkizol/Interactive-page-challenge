@@ -36,3 +36,13 @@ p {
     font-size: 19px;
 
 }
+.logo1 {
+    float: left;
+    margin-top: -50px;
+
+}
+.logo2 {
+    float: right;
+    margin-top: -50px;
+}
+
