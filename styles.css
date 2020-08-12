@@ -1,3 +1,36 @@
+@media (max-width:400px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:800px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width:1000px) {
+    body {
+        font-size: 20px;
+    }
+}
+body{
+   background-color: black;
+    height: 1000px;
+    width: 100%;
+    font-size: 14px;
+}
+.black{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
 .container {
     width: 600px;
     height: 300px;
@@ -10,7 +43,9 @@
 .button-summ{
     grid-column: 1;
     grid-row: 1;
-    background-color: black;
+    background: rgb(138,138,138);
+    background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(182,180,180,1) 42%, rgba(241,241,241,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     color: white;
     text-align: center;
     line-height: 40%;
@@ -20,7 +55,9 @@
 .button-pract{
     grid-column: 2;
     grid-row: 1;
-    background-color: black;
+    background: rgb(138,138,138);
+    background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(182,180,180,1) 42%, rgba(241,241,241,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     color: white;
     text-align: center;
     line-height: 40%;
@@ -30,7 +67,9 @@
 .button-cont{
     grid-column: 3;
     grid-row: 1;
-    background-color: black;
+    background: rgb(138,138,138);
+    background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(182,180,180,1) 42%, rgba(241,241,241,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     color: white;
     text-align: center;
     line-height: 40%;
@@ -41,7 +80,9 @@
     display: block;
     grid-column: 1/4;
     grid-row: 2;
-    background-color: black;
+    background: rgb(138,138,138);
+    background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(182,180,180,1) 42%, rgba(241,241,241,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     color: white;
     border: 1px solid grey;
     border-radius: 15px 15px 15px 15px;
@@ -50,7 +91,9 @@
     display: none;
     grid-column: 1/4;
     grid-row: 2;
-    background-color: black;
+    background: rgb(138,138,138);
+    background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(182,180,180,1) 42%, rgba(241,241,241,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     color: white;
     border: 1px solid grey;
     border-radius: 15px 15px 15px 15px;
@@ -59,7 +102,9 @@
     display: none;
     grid-column: 1/4;
     grid-row: 2;
-    background-color: black;
+    background: rgb(138,138,138);
+    background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(182,180,180,1) 42%, rgba(241,241,241,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     color: white;
     border: 1px solid grey;
     border-radius: 15px 15px 15px 15px;
