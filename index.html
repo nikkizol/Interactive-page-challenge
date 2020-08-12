@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> container
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,20 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="style.css">
-=======
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles.css">
->>>>>>> container
+
     <title>Tomorrow Land</title>
 </head>
 <body>
 <header>
-<<<<<<< HEAD
+<!-- NavBar -->
     <nav>
         <p>the future is tomorrow</p>
     </nav>
+
+    <!-- Slider -->
     <div class="slideshow-container">
 
         <div class="mySlides fade">
@@ -63,6 +61,7 @@
 
 </header>
 
+<!-- CounDown -->
 <section class="countdown">
     <div class="container2">
         <h1>TOMORROW LAND</h1>
@@ -87,86 +86,32 @@
 
 </section>
 
-
-=======
-    <div class="container1">
-        <div class="images">
-            <div class="img1">
-                <img class="Slides" src="images/2018-11.jpg" alt="tomorrowland"/>
-            </div>
-            <div class="img2">
-                <img class="Slides" src="images/2019-9.jpg" alt="tomorrowland"/>
-            </div>
-            <div class="img3">
-                <img class="Slides" src="images/2017-1.jpg" alt="tomorrowland"/>
-            </div>
-            <div class="img4">
-                <img class="Slides" src="images/maxresdefault.jpg" alt="tomorrowland"/>
-            </div>
-        </div>
-        <div class="button">
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
-    </div>
-</header>
-=======
-<!DOCTYPE html>
-<head>
-    <title>Formthing</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-</head>
-
-<body>
-<div class="navbar">
-    <div class="world">Around The World
-    </div>
-    <div class="country">Country
-    </div>
-    <div class="winter">Winter
-    </div>
-    <div class="year">365
-    </div>
-    <div class="foundation">Foundation
-    </div>
-    <div class="store">Store
-    </div>
-    <div class="faq">FAS
-    </div>
-    <div class="social">Social
-    </div>
-</div>
->>>>>>> container
 <div class="container">
-    <div class="button-summ" style="cursor: pointer;">
-        <p>Summary</p>
+    <button class="tablink" onclick="openPage('text-summ')">Summary</button>
+
+    <button class="tablink" onclick="openPage('text-pract')" id="defaultOpen">Practical Info</button>
+
+    <button class="tablink" onclick="openPage('text-cont')">Contact Form</button>
+
+    <div id="text-summ" class="tabcontent">
+        <h3>Summary</h3>
+        <p>test1</p>
     </div>
-    <div class="button-pract" style="cursor: pointer;">
-        <p>Practical Info</p>
+
+    <div id="text-pract" class="tabcontent">
+        <h3>Practical Info</h3>
+        <p>test2</p>
     </div>
-    <div class="button-cont" style="cursor: pointer;">
-        <p>Contact Form</p>
-    </div>
-    <div class="text-summ">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-    <div class="text-pract">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-    <div class="text-cont">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+    <div id="text-cont" class="tabcontent">
+        <h3>Contact Form</h3>
+        <p>test3</p>
     </div>
 
 </div>
-
-<<<<<<< HEAD
 
 
 <script src="js/script.js"></script>
-=======
->>>>>>> container
->>>>>>> container
+
 </body>
 </html>
