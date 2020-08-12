@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    padding-top: 4px;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.container2 {
+    color: black;
+    padding: 0.2rem;
+    text-align: center;
+    background-color: white;
+}
+
+p {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 4px;
+    font-size: 19px;
+
+}
