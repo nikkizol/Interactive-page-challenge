@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-button {
-    margin-top: -195px;
-    margin-left: 295px;
-    margin-right: 295px;
-}
-
-.Slides {
-    display: none;
-}
-
-img {
-    width: 59%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-=======
 @media (max-width:400px) {
     body {
         font-size: 12px;
@@ -40,7 +21,7 @@ img {
     }
 }
 body{
-   background-color: black;
+    background-color: black;
     height: 1000px;
     width: 100%;
     font-size: 14px;
@@ -211,4 +192,3 @@ body{
     border: 1px solid grey;
     border-radius: 15px 15px 15px 15px;
 }
->>>>>>> container
