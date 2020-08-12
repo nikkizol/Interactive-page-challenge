@@ -12,18 +12,30 @@
     grid-row: 1;
     background-color: black;
     color: white;
+    text-align: center;
+    line-height: 40%;
+    border: 1px solid grey;
+    border-radius: 15px 15px 30px;
 }
 .button-pract{
     grid-column: 2;
     grid-row: 1;
     background-color: black;
     color: white;
+    text-align: center;
+    line-height: 40%;
+    border: 1px solid grey;
+    border-radius: 15px 15px 30px;
 }
 .button-cont{
     grid-column: 3;
     grid-row: 1;
     background-color: black;
     color: white;
+    text-align: center;
+    line-height: 40%;
+    border: 1px solid grey;
+    border-radius: 15px 15px 30px;
 }
 .text-summ{
     display: block;
@@ -31,6 +43,8 @@
     grid-row: 2;
     background-color: black;
     color: white;
+    border: 1px solid grey;
+    border-radius: 15px 15px 15px 15px;
 }
 .text-pract{
     display: none;
@@ -38,6 +52,8 @@
     grid-row: 2;
     background-color: black;
     color: white;
+    border: 1px solid grey;
+    border-radius: 15px 15px 15px 15px;
 }
 .text-cont{
     display: none;
@@ -45,4 +61,6 @@
     grid-row: 2;
     background-color: black;
     color: white;
+    border: 1px solid grey;
+    border-radius: 15px 15px 15px 15px;
 }
