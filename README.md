@@ -8,4 +8,4 @@ Create a page together with GodFather.
 * Dirk Van Goethem
 * Hendrik Cromboom
 * Mykyta Zholkovskyi
-### URL to the page:
+### URL to the page:https://nikkizol.github.io/Interactive-page-challenge/.
