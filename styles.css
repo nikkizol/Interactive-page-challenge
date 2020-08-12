@@ -1,0 +1,17 @@
+button {
+    margin-top: -195px;
+    margin-left: 295px;
+    margin-right: 295px;
+}
+
+.Slides {
+    display: none;
+}
+
+img {
+    width: 59%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
