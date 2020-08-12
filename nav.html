@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Tomorrow Land</title>
+</head>
+<body>
+<header>
+    <!-- NavBar -->
+    <div class="navbar">
+        <div class="world">Around The World
+        </div>
+        <div class="country">Country
+        </div>
+        <div class="winter">Winter
+        </div>
+        <div class="year">365
+        </div>
+        <div class="foundation">Foundation
+        </div>
+        <div class="store">Store
+        </div>
+        <div class="faq">FAQ
+        </div>
+        <div class="social">Social
+        </div>
+    </div>
+    <!-- Slider -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/2018-11.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/2019-9.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/2017-1.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/maxresdefault.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+</header>
+
+<!-- CounDown -->
+<section class="countdown">
+    <div class="container2">
+        <h1>TOMORROW LAND</h1>
+        <p>
+            STARTS IN:
+        </p>
+        <div class="logo">
+        <span class="logo1">
+            <img src="images/b4f247f01b2aa7acf809b0023ab75ff6.png" height="auto" width="100" alt="logo"/>
+        </span>
+            <span class="logo2">
+            <img src="images/b4f247f01b2aa7acf809b0023ab75ff6.png"height="auto" width="100" alt="logo"/>
+        </span>
+        </div>
+        <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+        </ul>
+    </div>
+
+</section>
+
+<div class="container">
+    <button class="tablink" onclick="openPage('text-summ')">Summary</button>
+
+    <button class="tablink" onclick="openPage('text-pract')" id="defaultOpen">Practical Info</button>
+
+    <button class="tablink" onclick="openPage('text-cont')">Contact Form</button>
+
+    <div id="text-summ" class="tabcontent">
+        <h3>Summary</h3>
+        <p>test1</p>
+    </div>
+
+    <div id="text-pract" class="tabcontent">
+        <h3>Practical Info</h3>
+        <p>test2</p>
+    </div>
+
+    <div id="text-cont" class="tabcontent">
+        <h3>Contact Form</h3>
+        <p>test3</p>
+    </div>
+
+</div>
+
+<!-- Ticketsale -->
+<section class="ticketsale">
+    <div class="ticket-container">
+        <ul></ul>
+        <li><span id="tickets"></span>Tickets sold:</li>
+        <li><span id="sales"></span>0</li>
+
+    </div>
+
+</section>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
